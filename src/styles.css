@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px; /* Height for the logo container */
+  max-width: 100%;
+  padding: 20px; /* Padding around the logo */
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-height: 100%; /* Ensure the logo is responsive */
+  max-width: 100%;
+}
+
+.cesdk-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: calc(100vh - 140px); /* Adjust height to account for the logo */
+  padding: 40px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in width and height calculations */
+}
